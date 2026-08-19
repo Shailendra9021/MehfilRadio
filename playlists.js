@@ -41,10 +41,16 @@ const PLAYLISTS = [
     description: "90s romantic classics — batch 1, more being added.",
     songs: [
       { id: "w2iozAbNXAo", title: "Pehla Pehla Pyar Hai", artist: "S. P. Balasubrahmanyam - Hum Aapke Hain Koun" },
-      { id: "mEc3p-KSMnY", title: "Dil Ne Yeh Kaha Hain Dil Se", artist: "Alka Yagnik, Kumar Sanu, Udit Narayan - Dhadkan" },
+      { id: "zDngjMYHSP8", title: "Dil Ne Yeh Kaha Hain Dil Se", artist: "Alka Yagnik, Sonu Nigam - Dhadkan" },
       { id: "-ijfNEF7-JY", title: "Kuch Kuch Hota Hai (Title Track)", artist: "Alka Yagnik, Udit Narayan - Kuch Kuch Hota Hai" },
       { id: "EhOQvAe6bfM", title: "Jab Koi Baat Bigad Jaye", artist: "Kumar Sanu, Sadhana Sargam - Jurm" },
-      { id: "1eSG6dLiYxY", title: "Chura Ke Dil Mera", artist: "Alka Yagnik, Kumar Sanu - Main Khiladi Tu Anari" }
+      { id: "1eSG6dLiYxY", title: "Chura Ke Dil Mera", artist: "Alka Yagnik, Kumar Sanu - Main Khiladi Tu Anari" },
+      { id: "LQ0dKpUCLG0", title: "Waada Raha Sanam", artist: "Abhijeet, Alka Yagnik - Khiladi" },
+      { id: "EYJO5yDLapg", title: "Bahut Pyar Karte Hain", artist: "Anuradha Paudwal, S. P. Balasubrahmanyam - Saajan" },
+      { id: "pjYU9bbM5to", title: "Tu Hi Re", artist: "Hariharan, Kavita Krishnamurthy - Bombay" },
+      { id: "ZqiZPDBlslc", title: "Pehli Pehli Baar Mohabbat Ki Hai", artist: "Kumar Sanu, Alka Yagnik - Sirf Tum" },
+      { id: "Y6A690yhKOs", title: "Mera Dil Bhi Kitna Pagal Hai", artist: "Kumar Sanu, Alka Yagnik - Saajan" },
+      { id: "BtlnpBb4O8E", title: "Tip Tip Barsa Paani", artist: "Alka Yagnik, Udit Narayan - Mohra" }
     ]
   }
 ];
