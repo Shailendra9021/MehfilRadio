@@ -41,10 +41,10 @@ const PLAYLISTS = [
     description: "90s romantic classics — batch 1, more being added.",
     songs: [
       { id: "w2iozAbNXAo", title: "Pehla Pehla Pyar Hai", artist: "S. P. Balasubrahmanyam - Hum Aapke Hain Koun" },
-      { id: "dFrgNI93lIw", title: "Dil Ne Yeh Kaha Hain Dil Se", artist: "Alka Yagnik, Kumar Sanu, Udit Narayan - Dhadkan" },
+      { id: "mEc3p-KSMnY", title: "Dil Ne Yeh Kaha Hain Dil Se", artist: "Alka Yagnik, Kumar Sanu, Udit Narayan - Dhadkan" },
       { id: "-ijfNEF7-JY", title: "Kuch Kuch Hota Hai (Title Track)", artist: "Alka Yagnik, Udit Narayan - Kuch Kuch Hota Hai" },
-      { id: "5CGgGuuIMCQ", title: "Jab Koi Baat Bigad Jaye", artist: "Kumar Sanu, Sadhana Sargam - Jurm" },
-      { id: "nzrTZlC-C5E", title: "Chura Ke Dil Mera", artist: "Alka Yagnik, Kumar Sanu - Main Khiladi Tu Anari" }
+      { id: "EhOQvAe6bfM", title: "Jab Koi Baat Bigad Jaye", artist: "Kumar Sanu, Sadhana Sargam - Jurm" },
+      { id: "1eSG6dLiYxY", title: "Chura Ke Dil Mera", artist: "Alka Yagnik, Kumar Sanu - Main Khiladi Tu Anari" }
     ]
   }
 ];
