@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Mehfil Radio — Old Hindi Songs</title>
+<meta name="description" content="Mehfil Radio: an always-on radio of old Hindi songs, organised into playlists, with shuffle play that never repeats." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Rozha+One&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">🎙️ Mehfil Radio <small>old hindi radio</small></div>
+  <nav class="nav" id="navLinks">
+    <a href="#/" data-route="/"><span>🏠</span> Home</a>
+    <a href="#/playlists" data-route="/playlists"><span>📻</span> Playlists</a>
+    <a href="#/songs" data-route="/songs"><span>🎵</span> Songs</a>
+  </nav>
+</header>
+
+<main id="view-root"></main>
+
+<!-- Hidden YouTube player mount: audio only, no visible video -->
+<div id="yt-mount" style="position:fixed; width:1px; height:1px; top:-9999px; left:-9999px; overflow:hidden;"></div>
+
+<div class="player-bar" id="playerBar" hidden>
+  <div class="player-inner">
+    <img id="pbThumb" src="" alt="" />
+    <div class="player-meta">
+      <div class="title" id="pbTitle">—</div>
+      <div class="sub" id="pbSub">—</div>
+    </div>
+    <div class="player-controls">
+      <button class="icon-btn" id="pbPrev" aria-label="Previous song">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 20 9 12l10-8v16Z"/><path d="M5 19V5"/></svg>
+      </button>
+      <button class="icon-btn play" id="pbPlay" aria-label="Play">
+        <svg id="pbPlayIcon" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+      </button>
+      <button class="icon-btn" id="pbNext" aria-label="Next song">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 4l10 8-10 8V4Z"/><path d="M19 5v14"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="seek-row show" id="seekRow">
+    <span class="time" id="pbTime">0:00 / 0:00</span>
+    <input type="range" id="pbSeek" min="0" max="1000" value="0" aria-label="Seek" />
+  </div>
+</div>
+
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="playlists.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
